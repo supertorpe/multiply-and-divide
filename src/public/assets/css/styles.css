@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "lcd";
+  src: url("../fonts/lcd.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "major";
+  src: url("../fonts/major.ttf");
+  font-display: swap;
+}
+.top {
+  position: absolute;
+  display: flex;
+}
+.top > div {
+  border: 1px black dotted;
+  width: 20px;
+  font-family: lcd;
+  text-align: right;
+  margin: 2px;
+  padding: 2px;
+}
+.uno {
+  color: red;
+}
+.dos {
+  color: orange;
+}
+.tres {
+  color: green;
+}
+.cuatro {
+ color: blue;
+}
+.cinco {
+  color: mediumPurple;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.timer {
+  position: absolute;
+  width: 85%;
+  text-align: right;
+  font-family: "major";
+  font-size: 2em;
+  font-weight: bold;
+  color: red;
+}
+.main {
+  font-family: "major";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 35vh;
+  font-size: 2em;
+}
+.question-right {
+  font-weight: bold;
+}
+.numbers {
+  font-family: "lcd";
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.numbers > div {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  height: 50px;
+  margin: 10px;
+  background-color: lightgray;
+}
+.numbers > div > div {
+  font-size: 2em;
+  text-align: center;
+  width: 100%;
+}
+.numbers img {
+    width: 25px;
+    height: 25px;
+}
+#start {
+    display: none;
+}
+#stop {
+    display: inline;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="theme-color" content="black"/>
+  <title>Multiplicaciones</title>
+  <meta name="description" content="Practicar multiplicaciones y divisiones"/>
+  <link rel="icon" href="./favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icon/apple-icon-180x180.png">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="preload" href="./assets/fonts/lcd.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="./assets/fonts/major.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body>
+  <div class="top">
+    <div class="uno">0</div>
+    <div class="dos">0</div>
+    <div class="tres">0</div>
+    <div class="cuatro">0</div>
+    <div class="cinco">0</div>
+  </div>
+  <div class="timer"></div>
+  <div class="container">
+    <div class="main">
+      <div class="question"></div>
+      <div class="question-right"></div>
+    </div>
+    <div class="numbers">
+      <div>
+        <div onclick="clickDigit(1);">1</div>
+      </div>
+      <div>
+        <div onclick="clickDigit(2);">2</div>
+      </div>
+      <div>
+        <div onclick="clickDigit(3);">3</div>
+      </div>
+      <div>
+        <div onclick="clickDigit(4);">4</div>
+      </div>
+      <div>
+        <div onclick="clickDigit(5);">5</div>
+      </div>
+      <div>
+        <div onclick="clickDigit(6);">6</div>
+      </div>
+      <div>
+        <div onclick="clickDigit(7);">7</div>
+      </div>
+      <div>
+        <div onclick="clickDigit(8);">8</div>
+      </div>
+      <div>
+        <div onclick="clickDigit(9);">9</div>
+      </div>
+      <div>
+        <div onclick="clickDigit(0);">0</div>
+      </div>
+      <div>
+        <div onclick="reset();"><img src="./assets/icon/bin.svg" alt="reset" /></div>
+      </div>
+      <div>
+        <div id="stop" onclick="stop();"><img src="./assets/icon/stop.svg" alt="stop" /></div>
+        <div id="start" onclick="start();"><img src="./assets/icon/start.svg" alt="start" /></div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./assets/js/code.js" defer></script>
+</html>
