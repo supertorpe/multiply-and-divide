@@ -9,10 +9,12 @@ The webapp is published in https://multiplicar-ee590.web.app
 
 ## Screenshots
 <div style="display:flex;" >
-<img style="margin-left:10px;" src="screenshots/01.png" width="16%" >
-<img style="margin-left:10px;" src="screenshots/02.png" width="16%" >
-<img style="margin-left:10px;" src="screenshots/03.png" width="16%" >
-<img style="margin-left:10px;" src="screenshots/04.png" width="16%" >
-<img style="margin-left:10px;" src="screenshots/05.png" width="16%" >
-<img style="margin-left:10px;" src="screenshots/06.png" width="16%" >
+<img style="margin-left:10px;" src="screenshots/01.png" width="30%" >
+<img style="margin-left:10px;" src="screenshots/02.png" width="30%" >
+<img style="margin-left:10px;" src="screenshots/03.png" width="30%" >
+</div>
+<div style="display:flex;" >
+<img style="margin-left:10px;" src="screenshots/04.png" width="30%" >
+<img style="margin-left:10px;" src="screenshots/05.png" width="30%" >
+<img style="margin-left:10px;" src="screenshots/06.png" width="30%" >
 </div>
