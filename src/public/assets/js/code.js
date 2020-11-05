@@ -214,7 +214,6 @@ const clickDigit = function (digit) {
 
 const reset = function () {
     localStorage.removeItem("data");
-    initialize();
 };
 
 const stop = function () {
